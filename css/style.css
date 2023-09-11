@@ -1,0 +1,142 @@
+.{
+    margin: 0px;
+    padding: 0px;
+}
+.ful-Project{
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+}
+.head{
+    height: 50px;
+    background-color: rgb(222, 22, 212);
+    text-align: center;
+    padding-top:20px;
+    font-size: 30px;
+}
+
+
+
+.nav{
+    height: 50px;
+    background: rgb(200, 15, 220);
+}
+th a{
+    text-align: center;
+    padding: 70px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.manu{
+    height: 800px;
+    background: rgb(8, 141, 81);
+    text-align: center;
+    content: none;
+
+}
+.footar{
+    height: 100px;
+    background-color: burlywood;
+    padding-top: 10px;
+    text-align: center;
+}
+.Project{
+    height: 200px;
+    background-color: cadetblue;
+    text-decoration: none;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.Project a{
+    text-decoration: none;
+}
+.Contact{
+    height: 250px;
+    background-color: crimson;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.Project1{
+    height: 1000px;
+    background-color: darkolivegreen;
+    text-align: center;
+    padding-top:10px;
+}
+.Project2{
+    height: 1000px;
+    background-color: cornflowerblue;
+    padding-top: 10px;
+    text-align: center;
+}
+.Project3{
+    height: 1000px;
+    background-color: dimgray;
+    text-align: center;
+    padding-top:10px;
+}
+.About{
+    height: 100px;
+    background-color: fuchsia;
+    padding-top: 10px;
+    text-align: center;
+   
+}
+th,a{
+    padding-left: 10px;
+    text-decoration: none;
+    
+}
+.History{
+    height: 520px;
+    background-color: rgb(235, 243, 9);
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.Department{
+    height: 150px;
+    background-color: rgb(136, 226, 172);
+    padding-top: 10px;
+
+}
+.Noutios{
+    height: 40px;
+    background-color: deeppink;
+    padding-top: 10px;
+    text-align: center;
+}
+/*Dropdown part*/
+th ul{
+    background-color: aquamarine;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100px;
+    transform: .5s;
+    transition: calcY(0);
+    opacity: 0;
+    visibility: hidden;
+}
+th ul li{
+
+}
+th ul li a{
+    font-size: 30px;
+    text-decoration: none;
+ 
+    top: 0;
+    left: 0;
+}
+th ul li a:hover{
+    opacity:1 ;
+    visibility: visible;
+    transition: calcY(1);
+}
+
+th{
+    position: relative;
+}
+th ul li:hover > a{
+    background-color: blue;
+}
